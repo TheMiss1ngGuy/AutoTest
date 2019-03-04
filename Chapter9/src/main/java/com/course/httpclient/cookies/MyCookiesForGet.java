@@ -22,7 +22,7 @@ import java.util.ResourceBundle;
  *
  * Created by Stan on 2017/08/02
  */
-public class MyCookieseForGet {
+public class MyCookiesForGet {
 
     private String url;
     private ResourceBundle resourceBundle;

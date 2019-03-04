@@ -9,12 +9,7 @@
         <module name="Chapter" />
         <module name="Chapter5" />
         <module name="Chapter6" />
-      </profile>
-      <profile name="Annotation profile for Chapter" enabled="true">
-        <sourceOutputDir name="Chapter5/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="Chapter5/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="AutoTest" />
+        <module name="Chapter9" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +17,7 @@
       <module name="Chapter" target="1.5" />
       <module name="Chapter5" target="1.5" />
       <module name="Chapter6" target="1.6" />
+      <module name="Chapter9" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
