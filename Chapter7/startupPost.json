@@ -1,0 +1,27 @@
+[
+  {
+    "description":"模拟一个post请求",
+    "request":{
+      "uri":"/postDemo",
+      "method":"post"
+    },
+    "response":{
+      "text":"这是一个mock的post请求"
+    }
+  },
+
+  {
+   "description":"模拟一个带参数带post请求",
+    "request":{
+      "uri":"/postWithParam",
+      "method":"post",
+      "forms":{
+        "name":"huhansan",
+        "gender":"man"
+      }
+    },
+    "response":{
+      "text":"这是一个mock的带参数的post请求！！！"
+    }
+  }
+]
