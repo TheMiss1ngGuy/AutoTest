@@ -65,7 +65,7 @@ public class MyCookiesForGet {
 
     }
 
-    @Test(dependsOnMethods = {" "})
+    @Test(dependsOnMethods = {"testGetCookies"})
     public void testGetWithCookies() throws IOException {
 
         String uri = resourceBundle.getString("test.getWithCookies");

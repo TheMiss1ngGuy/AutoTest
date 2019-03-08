@@ -2,4 +2,6 @@ java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json
 
 java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startupGet.json
 
-java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c starupPost.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startupPost.json
+
+/Users/stan/Documents/BaiDuYunDownload/最全面的Java接口自动化测试实战\[Dmz社区\ DmzSheQu.Com\]/moco-runner-0.11.0-standalone.jar
